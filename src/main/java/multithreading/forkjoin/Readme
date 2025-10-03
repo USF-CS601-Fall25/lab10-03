@@ -1,0 +1,10 @@
+This exercise introduces the Fork/Join framework in Java,
+which is designed for solving problems that can be broken into smaller subproblems and solved in parallel.
+
+We’ll count how many prime numbers are in a given range (e.g., 1–100,000) using a divide-and-conquer approach:
+
+Split the range into halves (LeftTask and RightTask) until the range is small enough. (base case)
+
+Solve one of the tasks asynchronously.
+
+Combine results from subtasks to get the total.
